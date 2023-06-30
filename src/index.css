@@ -1,6 +1,18 @@
 body {
   background-image: url("./img/coffeeBG.jpeg");
-  margin: 0;
+  background-position:center;
+  background-repeat:round;
+  background-attachment: fixed;
+  border: 20px;
+  padding: 25px;
+  margin: 50px;
+	margin-bottom: 150px;
+  opacity: 85%;
+	text-align: justify;
+	display: block;
+	box-sizing: border-box;
+	float:left;
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
