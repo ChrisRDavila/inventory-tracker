@@ -49,7 +49,7 @@ function NewCoffeeForm(props){
           placeholder='add 130 pounds to inventory' 
           className='form-control'/>
 
-        <button type='submit'>{props.buttonText}</button>
+        <button type='submit'>Add to inventory</button>
       </form>
     </React.Fragment>
   );
