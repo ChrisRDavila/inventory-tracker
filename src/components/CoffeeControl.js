@@ -98,7 +98,7 @@ class CoffeeControl extends React.Component {
     } 
     else {
       currentlyVisibleState = <CoffeeList coffeeList={this.state.mainCoffeeList} onCoffeeSelect={this.handleChangeSelectCoffee}/>;
-      buttonText = "add sack to inventory";
+      buttonText = "update inventory";
     }
 
     return (

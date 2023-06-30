@@ -23,7 +23,7 @@ function ReusableCoffeeForm(props) {
         <input
           type='text'
           name='roast'
-          placeholder='degree of roast'
+          placeholder='style of roast'
           className='form-control' />
         <input
           type='number'
