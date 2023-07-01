@@ -1,19 +1,19 @@
-# Merch Site
+# inventory-tracker
 
-#### A practice merch site showcasing full CRUD (Create, Read, Update, Delete) functionality in a React application.
+#### A client side application showcasing full CRUD (Create, Read, Update, Delete) functionality in a React application.
 
 #### By Christopher Davila
 
 ## Technologies Used
 
-* _React
-* _JSX
+* _React_
+* _JSX_
 * _Node.js_
 * _javascript_
 * _Html_
 
 ## Description
-* Application to sell merchandise for a band, has full crud functionality and will not allow consumer to buy merch once quantity is 0.
+* Application to sell coffee and track inventory for a coffee company, has full crud functionality and will not allow consumer to buy coffee once amount of inventory is 0.
 
 ## Diagram
 * Click this link to view a diagram map of the component, props relationships of this application
