@@ -18,7 +18,7 @@
 
 ## Diagram
 * Click this link to view a diagram map of the component, props relationships of this application
-[Draw.io-diagram](https://drive.google.com/file/d/1fNcIneXd1b20B83_mGq6QojXAcgYmuln/view?usp=sharing)
+[Draw.io-diagram](http://url/inventory-tracker)
 
 ## Setup/Installation Requirements
 
