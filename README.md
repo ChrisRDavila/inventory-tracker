@@ -17,8 +17,8 @@
 * Application to sell and track inventory for a coffee company.  Client can create, read, update and delete entries, add 130 pound bags to the inventory and sell single pounds of coffee. The application will not allow consumer to buy coffee once amount of inventory is at 0.
 
 ## Diagram
-* Click this link to view a diagram map of the component, props relationships of this application
-[Draw.io-diagram](http://url/inventory-tracker)
+* below is a diagram created on draw.io to demonstration the component/prop relationships of this application:
+![Draw.io-Diagram](src/img/inventory-tracker.png)
 
 ## Setup/Installation Requirements
 

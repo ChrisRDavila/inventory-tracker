@@ -9,10 +9,10 @@ import './index.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div class="container">
-      <div class="row gx-5">
-        <div class="col">
-          <div class="p-3 border bg-light">  
+    <div className="container">
+      <div className="row gx-5">
+        <div className="col">
+          <div className="p-3 border bg-light">  
             <App />
             <CoffeeControl/>
             </div>
