@@ -12,10 +12,10 @@ function NewCoffeeForm(props){
     props.onNewCoffeeCreation({
       name: event.target.name.value, 
       origin: event.target.origin.value,
-      price: event.target.price.value,
+      price: parseInt(event.target.price.value),
       roast: event.target.roast.value, 
       bags: 0,
-      amount: amountOfBags * 130,
+      amount: parseInt(amountOfBags * 130),
       id: v4()
     });
   }
@@ -36,6 +36,7 @@ function NewCoffeeForm(props){
         <input
           type='number'
           name='price'
+          min='0'
           placeholder='price per pound'
           className='form-control' />
         <input
@@ -46,6 +47,7 @@ function NewCoffeeForm(props){
         <input
           type='number'
           name='bags'
+          min='0'
           placeholder='add 130 pounds to inventory' 
           className='form-control'/>
 

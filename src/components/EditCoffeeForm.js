@@ -10,9 +10,9 @@ function EditCoffeeForm(props){
     props.onEditCoffee({
       name: event.target.name.value, 
       origin: event.target.origin.value,
-      price: event.target.price.value,
+      price: parseInt(event.target.price.value),
       roast: event.target.roast.value,
-      amount: event.target.amount.value,
+      amount: parseInt(event.target.amount.value),
       bags: numberOfBags,
       id: coffee.id
     });
@@ -34,7 +34,8 @@ function EditCoffeeForm(props){
         <input
           type='number'
           name='price'
-          placeholder='price per pound'
+          min='0'
+          placeholder="price oer pound"
           className='form-control' />
         <input
           type='text'
@@ -44,6 +45,7 @@ function EditCoffeeForm(props){
         <input
           type='number'
           name='amount'
+          min='0'
           placeholder='bags in inventory' 
           className='form-control'/>
 

@@ -19,7 +19,7 @@ function Coffee(props){
 Coffee.propTypes = {
   name: PropTypes.string.isRequired,
   origin: PropTypes.string.isRequired,
-  price: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
   roast: PropTypes.string.isRequired,
   amount: PropTypes.number,
   bags: PropTypes.number,
