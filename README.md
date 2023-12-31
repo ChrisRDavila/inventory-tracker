@@ -14,7 +14,7 @@
 * _Bootstrap_
 
 ## Description
-* Application to sell and track inventory for a coffee company.  Client can create, read, update and delete entries, add 130 pound bags to the inventory and sell single pounds of coffee. The application will not allow consumer to buy coffee once amount of inventory is at 0.
+* Application to sell and track inventory for a coffee company.  Client can create, read, update and delete entries, add 130 pound bags to the inventory and sell single pounds of coffee. The application will not allow consumer to buy coffee once amount of inventory is at 0.  Code review for Reacts Basics section
 
 ## Diagram
 * below is a diagram created on draw.io to demonstration the component/prop relationships of this application:
